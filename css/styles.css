@@ -1,9 +1,38 @@
+header {
+    background-color: hsl(68, 53%, 92%);
+    display: grid;
+    grid-template-columns: 210px auto;
+    align-items: center;
+    height: 210px;
+}
+#content {
+    max-width: 960px;
+    margin: 0 auto
+}
 
+.photo-box {
+    
+}
+
+/* .banner-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+.photo-box {
+    height: auto;
+    border: 1px solid black;
+}
+.photo-box img {
+    width: 100%;
+    grid-column: 1 / -1;
+    grid-row: 1;
+} */
 
 .index-grid {
     display: grid;
     grid-template-columns: 1fr 250px;
 }
+
 #titles {
     grid-column: 1/2;
     grid-row-start: 1;
