@@ -12,8 +12,8 @@ header {
 
 .photo-box {
     display: grid;
-    grid-column-start: 0;
-    grid-row-start: 0;
+    grid-column-start: 1;
+    grid-row-start: 1;
 }
 
 .title {
