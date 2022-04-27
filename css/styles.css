@@ -18,6 +18,8 @@ header {
 
 .title {
     margin-top: 65px;
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Metal', cursive;
 }
 
 .index-grid {
