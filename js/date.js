@@ -1,5 +1,5 @@
 try {
-    let options {
+    let options = {
         weekday: "long",
         day : "numeric",
         month: "long",
