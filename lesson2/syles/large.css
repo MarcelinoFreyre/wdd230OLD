@@ -1,0 +1,13 @@
+@media only screen and (min-width: 64em) {
+    h1 {
+        font-family: 'Lemon', cursive;
+    }
+    
+    footer {
+        background-color: aquamarine;
+        height: 160px;
+        justify-items: center;
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+    }
+}
