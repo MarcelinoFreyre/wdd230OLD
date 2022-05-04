@@ -1,0 +1,53 @@
+header {
+    background-color: aquamarine;
+    display: grid;
+    grid-template-columns: 210px auto;
+    justify-items: center;
+    height: 210px;
+}
+
+#content {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.repetition {
+    grid-row: 1/2;
+}
+
+.white-space {
+    grid-row: 2/3;
+}
+
+.contrast {
+    grid-row: 3/4;
+}
+
+footer {
+    background-color: aquamarine;
+    height: 160px;
+    justify-items: center;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.mydata {
+    grid-row-end: 1;
+}
+
+#currentdate {
+    grid-row-start: 1;
+}
+h1 {
+    font-family: 'Lemon', cursive;
+}
+
+footer {
+    background-color: aquamarine;
+    height: 160px;
+    justify-items: center;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
