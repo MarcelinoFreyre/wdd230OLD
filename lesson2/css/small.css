@@ -1,7 +1,6 @@
 header {
+    text-align: center;
     background-color: aquamarine;
-    display: grid;
-    grid-template-columns: 210px auto;
     justify-items: center;
     height: 210px;
 }
@@ -17,12 +16,26 @@ header {
     grid-row: 1/2;
 }
 
+.repetition img {
+    width: 90%;
+    height: auto;
+}
+
 .white-space {
     grid-row: 2/3;
+    height: auto;
+}
+
+.white-space img {
+    width: 90%;
 }
 
 .contrast {
     grid-row: 3/4;
+}
+
+.contrast img {
+    width: 90%;
 }
 
 footer {
